@@ -30,3 +30,14 @@ Deux volumes sont définis pour persister les données :
 
 wordpress : Stocke les fichiers WordPress.
 db : Stocke les données de la base de données MySQL.
+Comment démarrer le projet
+Clonez ce dépôt sur votre machine locale.
+Exécutez la commande suivante pour démarrer les services :
+Copier le code
+executer la commande suivante pour demarer les services
+docker-compose up -d
+Accédez à votre installation WordPress sur http://localhost:8010.
+Vous pouvez gérer la base de données MySQL via phpMyAdmin en visitant http://localhost:8020.
+
+
+
